@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Vancrest-ioa</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Vancrest-ioa Logo">
+        <h1>Register to Vancrest-ioa</h1>
+    </header>
+    <main>
+        <form id="registerForm" enctype="multipart/form-data">
+            <div>
+                <label for="avatar">Upload Avatar:</label>
+                <input type="file" id="avatar" name="avatar" accept="image/*">
+            </div>
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2023 Vancrest-ioa. All rights reserved.</p>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/register.js"></script>
+</body>
+</html>

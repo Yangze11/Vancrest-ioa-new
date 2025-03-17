@@ -1,0 +1,52 @@
+/* 搜索框样式 */
+.search-container {
+    padding: 12px 16px;
+    background: #fff;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: #f5f5f5;
+    border-radius: 24px;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+}
+
+.search-box:focus-within {
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.search-box i {
+    color: #999;
+    font-size: 16px;
+}
+
+.search-box i.fa-search {
+    margin-right: 8px;
+}
+
+.search-box i.fa-times {
+    margin-left: 8px;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.search-box input {
+    flex: 1;
+    border: none;
+    background: none;
+    font-size: 14px;
+    color: #333;
+    padding: 0;
+}
+
+.search-box input::placeholder {
+    color: #999;
+}
+
+.search-box input:focus {
+    outline: none;
+} 
